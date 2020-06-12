@@ -300,7 +300,7 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -8182,7 +8182,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 5em;
+  padding-top: 3em;
   padding-bottom: 40px;
   padding-left: 2em;
   padding-right: 2em;
@@ -8218,17 +8218,17 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     font-weight: normal;
-    font-size: 74px;
+    font-size: 65px;
     line-height: .8;
     font-family: "Abril Fatface", cursive; }
     @media (max-width: 1199.98px) {
       #colorlib-aside #colorlib-logo {
-        font-size: 62px; } }
+        font-size: 65px; } }
     #colorlib-aside #colorlib-logo span {
       display: block; }
     @media (max-width: 991.98px) {
       #colorlib-aside #colorlib-logo {
-        margin-bottom: 20px; } }
+        margin-bottom: 0px; } }
     #colorlib-aside #colorlib-logo a {
       display: inline-block;
       text-align: left;
@@ -8248,7 +8248,7 @@ h1, h2, h3, h4, h5,
       margin: 0 0 10px 0;
       padding: 0;
       list-style: none;
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 500; }
       #colorlib-aside #colorlib-main-menu ul li a {
         color: rgba(0, 0, 0, 0.7);
@@ -8303,7 +8303,7 @@ h1, h2, h3, h4, h5,
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
     right: 0;
     padding: 0 20px;
@@ -8316,11 +8316,12 @@ h1, h2, h3, h4, h5,
     #colorlib-aside .colorlib-footer a {
       color: #000000; }
     #colorlib-aside .colorlib-footer .pfooter {
+      top: 30px;
       font-size: 14px; }
     #colorlib-aside .colorlib-footer .colorlib-subscribe-form {
       width: 100%; }
       #colorlib-aside .colorlib-footer .colorlib-subscribe-form .form-group {
-        position: relative;
+        position: absolute;
         margin-bottom: 0;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
