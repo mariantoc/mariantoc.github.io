@@ -46,7 +46,7 @@
 					<li><a href="structural.html">Structural / Tectonics </a></li>
 					<li><a href="geochemistry.html">Geochemistry </a></li>
 					<li><a href="maps.html">Geological Maps </a></li>
-					<li><a href="speleology.html">Speleology <font color="red"><i><b> -New- </i></b></font> </a></li>
+					<li><a href="speleology.html">Speleology</a></li>
 					<li><a href="about.html">About</a></li>
 					<li class="colorlib-active"><a href="contact.html">Contact</a></li>
 				</ul>
@@ -114,6 +114,21 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+
+  <!-- Java Script to return to the same original positrion in the previous page after hitting back buttom-->
+<script type="text/javascript">
+	function refreshPage () {
+	  var page_y = document.getElementsByTagName("body")[0].scrollTop;
+	  window.location.href = window.location.href.split('?')[0] + '?page_y=' + page_y;
+	}
+	window.onload = function () {
+	  setTimeout(refreshPage, 35000);
+	  if ( window.location.href.indexOf('page_y') != -1 ) {
+		var match = window.location.href.split('?')[1].split("&")[0].split("=");
+		document.getElementsByTagName("body")[0].scrollTop = match[1];
+	  }
+	}
+	</script>
+
   </body>
 </html>
