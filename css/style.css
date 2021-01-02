@@ -8245,7 +8245,7 @@ h1, h2, h3, h4, h5,
     margin: 0;
     padding: 0; }
     #colorlib-aside #colorlib-main-menu ul li {
-      margin: 0 0 10px 0;
+      margin: 0 0 15px 0;
       padding: 0;
       list-style: none;
       font-size: 17px;
@@ -8265,7 +8265,7 @@ h1, h2, h3, h4, h5,
           content: "";
           position: absolute;
           height: 2px;
-          bottom: 7px;
+          bottom: 15px;
           left: 0;
           right: 0;
           background-color: #1eafed;
@@ -8303,12 +8303,13 @@ h1, h2, h3, h4, h5,
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     position: absolute;
+    top: 10 px;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 0 20px;
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 350;
     color: rgba(0, 0, 0, 0.6); }
     #colorlib-aside .colorlib-footer h3 {
       font-size: 18px;
@@ -8316,8 +8317,7 @@ h1, h2, h3, h4, h5,
     #colorlib-aside .colorlib-footer a {
       color: #000000; }
     #colorlib-aside .colorlib-footer .pfooter {
-      top: 30px;
-      font-size: 14px; }
+      font-size: 16px; }
     #colorlib-aside .colorlib-footer .colorlib-subscribe-form {
       width: 100%; }
       #colorlib-aside .colorlib-footer .colorlib-subscribe-form .form-group {
