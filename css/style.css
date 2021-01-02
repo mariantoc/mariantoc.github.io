@@ -8303,13 +8303,12 @@ h1, h2, h3, h4, h5,
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     position: absolute;
-    top: 10 px;
     bottom: 0;
     left: 0;
     right: 0;
     padding: 0 20px;
-    font-size: 15px;
-    font-weight: 350;
+    font-size: 18px;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.6); }
     #colorlib-aside .colorlib-footer h3 {
       font-size: 18px;
@@ -8317,7 +8316,7 @@ h1, h2, h3, h4, h5,
     #colorlib-aside .colorlib-footer a {
       color: #000000; }
     #colorlib-aside .colorlib-footer .pfooter {
-      font-size: 16px; }
+      font-size: 14px; }
     #colorlib-aside .colorlib-footer .colorlib-subscribe-form {
       width: 100%; }
       #colorlib-aside .colorlib-footer .colorlib-subscribe-form .form-group {
