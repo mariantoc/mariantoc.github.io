@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8242,16 +8242,16 @@ h1, h2, h3, h4, h5,
       background-repeat: no-repeat;
       background-position: center center; }
   #colorlib-aside #colorlib-main-menu ul {
-    margin: 0 0 15px 0;
+    margin: 0 0 30px 0px;
     padding: 0 0 15px 0px; }
     #colorlib-aside #colorlib-main-menu ul li {
       margin: 0 0 15px 0;
       padding: 0;
       list-style: none;
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 500; }
       #colorlib-aside #colorlib-main-menu ul li a {
-        color: rgba(0, 0, 0, 0.7);
+        color: rgba(0, 0, 0, 0.8);
         text-decoration: none;
         position: relative;
         padding: 10px 0;
@@ -8303,7 +8303,7 @@ h1, h2, h3, h4, h5,
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     position: absolute;
-    top:765px;
+    top:745px;
     bottom: 0;
     left: 0;
     right: 0;
