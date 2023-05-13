@@ -8242,10 +8242,10 @@ h1, h2, h3, h4, h5,
       background-repeat: no-repeat;
       background-position: center center; }
   #colorlib-aside #colorlib-main-menu ul {
-    margin: 0 0 30px 0px;
-    padding: 0 0 15px 0px; }
+    margin: 0 0 30px 0;
+    padding: 0 0 30px 0; }
     #colorlib-aside #colorlib-main-menu ul li {
-      margin: 0 0 15px 0;
+      margin: 0 0 10px 0;
       padding: 0;
       list-style: none;
       font-size: 15px;
