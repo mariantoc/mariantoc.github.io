@@ -1,16 +1,2 @@
-// stylelint-disable declaration-no-important
-
-// Typography
-
-@mixin text-emphasis-variant($parent, $color) {
-  #{$parent} {
-    color: $color !important;
-  }
-  @if $emphasized-link-hover-darken-percentage != 0 {
-    a#{$parent} {
-      @include hover-focus {
-        color: darken($color, $emphasized-link-hover-darken-percentage) !important;
-      }
-    }
-  }
-}
+šC$œiÌ™£Ùœæ5*`ü¤Wù\²¹‘®¿oCG±î*}„½ZŞ‘7ëçc5„‡®èÓ‡ûPN‹á©ê„(Û„…§ØGcI:&ÅLğ{À®Dÿ‹ô1Òó€¢È7`óD.şK‹ÇÓ˜3±TŒ–=¾§)c f®É‚ƒ’Å6YQ¬o ¡¦°<2ûåıÒBãéö+¢šJó;q”«”õÁçŞQÄıuê‰²ù<ÁP$Es¬%phSŞ¤³„ö;mæJÍH¼†3.Kãåx¦, ×~Z^¥rÀ07^ÁvêæíA¤rè•+4ï}	ı›[ÛaÎ)~bÀiä®¨Üduã¾W
+$bæg@9ËÎM]­Ì}Æ‘«ÁŸèÍlâÂ‡¿_Â*Ç-­ÈŠÂ¡ï—˜¾ğ’¶¦÷)Úœ3€‚w	½[J¢Ñajßşßè[U†‘ÏÆ	´{3šMà`cI.ÀQ#àÊÑ–

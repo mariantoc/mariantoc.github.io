@@ -1,22 +1,3 @@
-// Pagination
-
-@mixin pagination-size($padding-y, $padding-x, $font-size, $line-height, $border-radius) {
-  .page-link {
-    padding: $padding-y $padding-x;
-    @include font-size($font-size);
-    line-height: $line-height;
-  }
-
-  .page-item {
-    &:first-child {
-      .page-link {
-        @include border-left-radius($border-radius);
-      }
-    }
-    &:last-child {
-      .page-link {
-        @include border-right-radius($border-radius);
-      }
-    }
-  }
-}
+Ìê÷’‘v6îe¿ŸÙK$ûæ|ØëÑÉÎóäÆïdA¿Ê<°ì X%eî÷Rÿ	øÌE¤6ÖFîe¸á²Y/Æœ§]`,¥ı{ß0®¤…¢À÷4
+C¶è+`j3æÀ‰Ñ-ÕPn¤}"ı~ŸDˆYyå»ëAUœë¥dmŠßÊYJöÛç]ÛÑ+ÃÑ5„ëF2¦÷Úgê‰bGæ…ÜeF`md¾Ê¡,X˜Á/ùá(–”ho×ÿËPp6QÓBê6œÑ:U†²@Œœ`;¤®¼Æ4””ü°ƒVòa,Ë(÷‡ôú ë,Yz½íPãÒ—Hà­5æ†¦Ä^y4ŠYGEŞÉ
+½ÙóÔáÙdÉ¡VPBE¯4É$ëû}·»†ê{yØˆë½g§<ŸÚàÚ@U¹dÈ&©Ä8D’®ÇcA!	4±H¯	»(\­07«Ââ‘×!œôbjNâ.´<vºp`£:>;Æm~»Ã.\òÈã¨©h(8Å¯¤%¸s)c›bv´î:ÉB:êıi>¯3&ÖXŠÛkšÊH”ğøéÙçU˜W|%/‰‘Ï÷‰‘ŞbÊU&”|%ìŸ9b\¢øËzæ=’8çxvì×D©%î%¶
