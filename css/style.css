@@ -454,9 +454,20 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 576px) {
-    .container {
-      max-width: 540px; } }
+
+
+  @media (max-width: 576px) {
+    .container,.description-image {
+      max-width: 540px; 
+      font-size: 90%;
+    } }
+
+  @media (max-width: 576px) {
+      .mb-2,.mb-4 {
+        max-width: 540px; 
+        font-size: 1rem;
+      } }
+ 
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -2580,10 +2591,12 @@ input[type="button"].btn-block {
 @media (min-width: 576px) {
   .dropdown-menu-sm-left {
     right: auto;
-    left: 0; }
+    left: 0;
+   }}
+
   .dropdown-menu-sm-right {
     right: 0;
-    left: auto; } }
+    left: auto; }
 
 @media (min-width: 768px) {
   .dropdown-menu-md-left {
@@ -3530,7 +3543,8 @@ input[type="button"].btn-block {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
-    padding-left: 0; } }
+    padding-left: 0; 
+  } }
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
@@ -8253,17 +8267,6 @@ h1, h2, h3, h4, h5,
         margin-top: 3.5rem;
       }} 
 
-     /* @media (max-height: 100px) {
-      #colorlib-aside #colorlib-main-menu ul li a:after{
-        height: 100%;
-      } }
-
-        @media (min-height: 100px) {
-        #colorlib-aside #colorlib-main-menu ul li a{
-          display:flex;
-          padding: 0px 0px 0px 0px;
-        }}*/
-
     #colorlib-aside #colorlib-logo a {
       display: inline-block;
       text-align: justify;
@@ -8277,13 +8280,14 @@ h1, h2, h3, h4, h5,
       background-repeat: no-repeat;
       background-position: center center; }
   #colorlib-aside #colorlib-main-menu ul {
-    margin: 0 0 40px 0;
-    padding: 0 0 40px 0; }
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0; }
     #colorlib-aside #colorlib-main-menu ul li {
-      margin: 0 0 7.75px 0px;
+      margin: 0 0 2px 0px;
       padding-bottom: 0px;
       list-style: none;
-      font-size: 16.5px;
+      font-size: 15px;
+      font-style: bold;
       font-weight: 500; }
       #colorlib-aside #colorlib-main-menu ul li a {
         color: rgba(0, 0, 0, 0.8);
@@ -8338,8 +8342,8 @@ h1, h2, h3, h4, h5,
             -o-transform: scaleX(1);
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
-    position: absolute;
-    top:755px;
+    position: relative ;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
