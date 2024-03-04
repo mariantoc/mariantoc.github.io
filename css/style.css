@@ -457,16 +457,17 @@ pre {
 
 
   @media (max-width: 576px) {
-    .container,.description-image {
+    .container {
       max-width: 540px; 
       font-size: 90%;
     } }
 
   @media (max-width: 576px) {
-      .mb-2,.mb-4 {
+      .mb-4,.mb-2 {
         max-width: 540px; 
         font-size: 1rem;
       } }
+
  
   @media (min-width: 768px) {
     .container {
@@ -8289,6 +8290,7 @@ h1, h2, h3, h4, h5,
       font-size: 15px;
       font-style: bold;
       font-weight: 500; }
+
       #colorlib-aside #colorlib-main-menu ul li a {
         color: rgba(0, 0, 0, 0.8);
         text-decoration: none;
