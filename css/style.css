@@ -9397,3 +9397,40 @@ textarea.form-control {
       cursor: pointer;
       color: #FFFFFF;
     }
+
+   .description-image-eco{
+      margin-left: 20%;
+      padding: 2rem 0;
+      width: auto;
+      height: auto;
+      object-fit: cover;
+      margin-bottom: 3rem;
+   }
+
+   .description-image-strat{
+    margin-left: 30%;
+    padding: 2rem 0;
+    width: 30%;
+    height: 40%;
+    object-fit: cover;
+    margin-bottom: 3rem;
+ }
+
+ .description-image-cor{
+  left: 20%;
+  padding: 2rem 0;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+
+
+.description-image-ind{
+  margin-left: 20%;
+  padding: 2rem 0;
+  width: 55%;
+  height: 65%;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
