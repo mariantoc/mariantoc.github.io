@@ -6620,6 +6620,7 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
+  padding-left: 2rem;
   margin-bottom: 0.5rem !important; }
 
 .ml-2,
@@ -9433,4 +9434,8 @@ textarea.form-control {
   height: 65%;
   object-fit: cover;
   margin-bottom: 3rem;
+}
+
+.meta-wrap{
+  padding-left: 2rem;
 }
