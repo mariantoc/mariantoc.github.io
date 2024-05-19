@@ -9437,10 +9437,10 @@ textarea.form-control {
   margin-bottom: 3rem;
 }
 
-.meta-wrap{
+/*.meta-wrap{
   margin-top: -80px;
   padding-left: 2rem;
-}
+}*/
 
 * {box-sizing:border-box}
 
@@ -9544,4 +9544,9 @@ textarea.form-control {
   max-height: 550px;
   position: relative;
   margin: 30px 10px 10px 25%;
+}
+
+.articles{
+  margin-top: 0.1px;
+  padding-left: 2rem;
 }
