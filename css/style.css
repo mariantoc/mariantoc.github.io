@@ -9446,8 +9446,8 @@ textarea.form-control {
 
 /*Index Slideshow container */
 .slideshow-container {
-  width: 650px;
-  height: 650px;
+  max-width: 650px;
+  max-height: 650px;
   position: relative;
   margin: 2px 5px 0 15%;
 }
@@ -9553,9 +9553,12 @@ textarea.form-control {
   padding-left: 2rem;
 }
 
-@media (max-width: 500rem) {
+@media (max-width: 1000px) {
   .slideshow-container{
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
+  }
+  .articles{
+    font-size: 85%;
   }
 }
