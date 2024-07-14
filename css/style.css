@@ -9552,3 +9552,10 @@ textarea.form-control {
   margin-top: 0.1px;
   padding-left: 2rem;
 }
+
+@media (max-width: 500rem) {
+  .slideshow-container{
+    width: 65%;
+    height: 65%;
+  }
+}
