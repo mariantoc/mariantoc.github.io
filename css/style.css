@@ -9555,8 +9555,8 @@ textarea.form-control {
 
 @media (max-width: 1000px) {
   .slideshow-container{
-    width: 82%;
-    height: 82%;
+    width: 80%;
+    height: 80%;
   }
   .articles{
     font-size: 85%;
