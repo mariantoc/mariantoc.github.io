@@ -463,7 +463,8 @@ pre {
     .container {
       max-width: 540px; 
       font-size: 90%;
-    } }
+    }
+  }
 
   @media (max-width: 576px) {
       .mb-4,.mb-2 {
@@ -9404,8 +9405,8 @@ textarea.form-control {
    .description-image-eco{
       margin-left: 20%;
       padding: 2rem 0;
-      width: auto;
-      height: auto;
+      width: 55%;
+      height: 65%;
       object-fit: cover;
       margin-bottom: 3rem;
    }
@@ -9561,4 +9562,66 @@ textarea.form-control {
   .articles{
     font-size: 85%;
   }
+
+  .container p,
+  .about{
+    width: 95%;
+    font-size: 70%;
+    text-align: left;
+  }
+
+  .col-md-12 p{
+    font-size:75%;
+  }
+
+  .blog-entry .img-2{
+    height: 100px;
+    width: 100px;
+  }
+
+.blog-entry .text h3{
+  font-size: 100%;
+  margin-left: -2rem;
+}
+
+.blog-entry .text .meta-wrap .meta span{
+  font-size: 65%;
+}
+
+.contact-section .info{
+  width: 95%;
+  height: 95%;
+}
+
+.contact-section .info a{
+  font-size: 85%;
+  margin-left: -40%;
+ }
+
+}
+
+@media (max-width: 800px) {
+  .contact-section .info{
+    width: 95%;
+    height: 95%;
+  }
+  
+  .contact-section .info a{
+    font-size: 85%;
+    margin-left: -10%;
+   }
+
+}
+
+@media (max-width: 1100px) {
+  .contact-section .info{
+    width: 95%;
+    height: 95%;
+  }
+  
+  .contact-section .info a{
+    font-size: 85%;
+    margin-left: -5%;
+   }
+
 }
