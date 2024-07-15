@@ -9562,12 +9562,14 @@ textarea.form-control {
   .articles{
     font-size: 85%;
   }
-
   .container p,
   .about{
     width: 95%;
     font-size: 70%;
     text-align: left;
+  }
+  .container p{
+    font-size: 85%;
   }
 
   .col-md-12 p{
@@ -9597,7 +9599,6 @@ textarea.form-control {
   font-size: 85%;
   margin-left: -40%;
  }
-
 }
 
 @media (max-width: 800px) {
@@ -9623,5 +9624,7 @@ textarea.form-control {
     font-size: 85%;
     margin-left: -5%;
    }
-
+.blog-entry .text .meta-wrap .meta span{
+  font-size: 85%;
+}
 }
