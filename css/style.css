@@ -9404,8 +9404,8 @@ textarea.form-control {
    .description-image-eco{
       margin-left: 20%;
       padding: 2rem 0;
-      width: auto;
-      height: auto;
+      width: 55%;
+      height: 65%;
       object-fit: cover;
       margin-bottom: 3rem;
    }
@@ -9561,4 +9561,26 @@ textarea.form-control {
   .articles{
     font-size: 85%;
   }
+
+  .container p{
+    font-size: 85%;
+  }
+
+  .col-md-12 p{
+    font-size:75%;
+  }
+
+  .blog-entry .img-2{
+    height: 100px;
+    width: 100px;
+  }
+
+.blog-entry .text h3{
+  font-size: 100%;
+}
+
+.blog-entry .text .meta-wrap .meta span{
+  font-size: 85%;
+}
+
 }
