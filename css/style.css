@@ -9447,20 +9447,19 @@ textarea.form-control {
 
 /*Index Slideshow container */
 .slideshow-container {
-  width: 650px;
-  height: 650px;
+  width: 550px;
+  height: 550px;
   position: relative;
-  margin: 2px 5px 0px 15%;
+  margin: 2px 5px 0 10%;
+  object-fit:fill;
 }
 
 /* Hide the images by default */
 .mySlides {
-  width: auto;
-  height: auto;
-  display: none;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  vertical-align: middle;
   padding-bottom: 0;
+  transform: translateX(13%);
 }
 
 /* Next & previous buttons */
@@ -9629,4 +9628,28 @@ textarea.form-control {
 .blog-entry .text .meta-wrap .meta span{
   font-size: 85%;
 }
+}
+
+@media (max-width: 900px) {
+  .slideshow-container{
+    width: 55%;
+    height: 55%;
+    transform: translateX(-3%);
+  }
+}
+
+@media (max-width: 1165px) {
+  .slideshow-container{
+    width: 75%;
+    height: 75%;
+    transform: translateX(-17%);
+  }
+}
+
+@media (max-width: 400px) {
+  .slideshow-container{
+    width: 55%;
+    height: 55%;
+    transform: translateX(-10%);
+  }
 }
