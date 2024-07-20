@@ -9447,14 +9447,16 @@ textarea.form-control {
 
 /*Index Slideshow container */
 .slideshow-container {
-  max-width: 650px;
-  max-height: 650px;
+  width: 650px;
+  height: 650px;
   position: relative;
-  margin: 2px 5px 0 15%;
+  margin: 2px 5px 0px 15%;
 }
 
 /* Hide the images by default */
 .mySlides {
+  width: auto;
+  height: auto;
   display: none;
   align-items: center;
   justify-content: center;
