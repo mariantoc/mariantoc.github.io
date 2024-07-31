@@ -9623,12 +9623,14 @@ textarea.form-control {
   }
 }
 /* =================End of 1980 px ==============================*/
+
+/* =================Start of 1979 px ==============================*/
 @media (max-width: 1979px){
   #colorlib-main .ftco-about .video-about{
     transform: translateX(35%);
     }
 }
-
+/* =================End of 1979 px ==============================*/
 
 /* =================Start of 1400 px ==============================*/
 @media (max-width: 1400px){
