@@ -9455,7 +9455,7 @@ textarea.form-control {
   width: 55%;
   height: 65%;
   object-fit: cover;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 
 /*.meta-wrap{
