@@ -32,6 +32,16 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+  	<!--Pop up message-->
+	<div id="popup" class="popup">
+  	<div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <h2>Bienvenido - Welcome to Geological Notes</h2>
+    <p>Hemos actualizado el repositorio de manera que <b><u>todos los árticulos publicados desde el 2020</u></b> se encuentran estas páginas. Asi mismo hemos actualizado el archivo con las lista de publicaciones. Para accesarlo, por favor use el siguiente link <a href="NotasGeologiaPublicationList_Updated.xlsx" class="btn-custom">Publication List</a></p>
+	<p>We have updated the repository so <b><u>all the articles posted since 2020</u></b> are in these web pages. We have also updated the publication list file.  To access it, please use the following link <a href="NotasGeologiaPublicationList_Updated.xlsx" class="btn-custom">Publication List</a></p>
+ 	 </div>
+	</div>
+	<!--End of Pop up message-->
 <!--===========================================================================================================-->	
 <!-- Navigation bar-->
   	<div id="colorlib-page">
@@ -48,7 +58,7 @@
           <li><a href="geomorphology.html">Geomorphology <!--<font color="red"><i><b> -New- </i></b></font>--></a></li>
           <li><a href="excursions.html">Geological Excursions</a></li>
           <li><a href="maps.html">Geological Maps </a></li>
-          <li><a href="topics.html">Geo Topics / Tópicos Geológicos<!--<font color="red"><i><b> -New- </i></b></font>__></a></li>
+          <li><a href="topics.html">Geo Topics / Tópicos Geológicos<!--<font color="red"><i><b> -New- </i></b></font>--></a></li>
           <li><a href="geophysics.html">Geophysics<!--<font color="red"><i><b> -New- </i></b></font>--></a></li>
           <li><a href="hotsprings.html">Hot Springs<!--<font color="red"><i><b> -New- </i></b></font>--></a></li>
           <li><a href="igneous.html">Igeneous / Metamorphic Rocks<!--<font color="red"><i><b> -New- </i></b></font>--></a></li>
@@ -77,7 +87,7 @@
 <!-- End of Navigation bar-->
 <!--===========================================================================================================-->		
  <!-- Download button-->
- <a href="Resources/NotasGeologiaPublicationList.xlsx" download="NotasGeologiaPublicationList">
+ <a href="NotasGeologiaPublicationList_Updated.xlsx" download="NotasGeologiaPublicationList">
 	<button type="button" class=download-btn >
 		<i class="fa fa-download"></i>
 		<span>Publication List</span>
@@ -292,6 +302,17 @@
       document.getElementsByTagName("body")[0].scrollTop = match[1];
     }
   }
+  </script>
+  	</script>
+    <!-- JavaScript goes here-->
+  <script>
+    window.onload = function() {
+      document.getElementById("popup").style.display = "block";
+    };
+
+    document.querySelector(".close-btn").onclick = function() {
+      document.getElementById("popup").style.display = "none";
+    };
   </script>
 
   </body>
